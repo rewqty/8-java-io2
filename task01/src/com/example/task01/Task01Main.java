@@ -11,6 +11,8 @@ public class Task01Main {
         // например вот так:
 
         System.out.println(extractSoundName(new File("task01/src/main/resources/3727.mp3")));
+        System.out.println(extractSoundName(new File("task01/src/main/resources/3724.mp3")));
+        System.out.println(extractSoundName(new File("task01/src/main/resources/3726.mp3")));
     }
 
     public static String extractSoundName(File file) throws IOException, InterruptedException {
